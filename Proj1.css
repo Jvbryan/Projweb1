@@ -1,0 +1,268 @@
+.imglogo {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.menu {
+    background-color: white;
+    height: 30px;
+    width: 100%;
+    color: #666;
+}
+
+body{margin:0;}
+
+.wrapper{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.bar {
+    margin: 0 auto;
+    width: 820px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: 500 ;
+    font-family: Open Sans,Arial,sans-serif;
+}
+.caixa {
+    background-color: white;
+    max-width: 250px;
+    height: 27px;
+    position: relative;
+    left: 0px;
+    top: 8px;
+    display: inline;
+    padding-left: 11px;
+    padding-right: 11px;
+    text-align: center;
+}
+
+.cxexterna{
+    position: absolute;
+    top: 22px;
+    left: 0px;
+    transition: all step-end 100ms;
+    transform: translateX(0px) scale(0.0);
+}
+.caixa:hover {background-color:whitesmoke; }
+.caixa:hover .cxexterna{
+    transform: translateX(0) scale(1.0);
+}
+
+.submenu {
+    background-color: white;
+    width: 230px;
+    height: auto;
+    border-top: 2px solid #a5c4d4;
+    padding-top: 5px;
+}
+.branca{
+    background-color: white;
+    width: 160px;
+    height: auto;
+    padding: 12px 5px 12px 35px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500 ;
+    font-family: Open Sans,Arial,sans-serif;
+}
+.branca:hover {background-color: white; }
+
+
+
+.fotofundotop{
+    background-image: 
+    linear-gradient(180deg,rgba(0,0,0,0.19) 0%,
+    rgba(0,0,0,0.4) 100%),
+    url("fotofundotop.png")!important;
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    background-size: 100%;
+    width: auto;
+    height: 350px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.textopainel{
+    font-family:'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 70px;
+    font-weight: bold ;
+    text-align: center;
+    padding-top: 107px;
+    padding-bottom: 5px;
+    margin: 0px;
+    letter-spacing: 3px;
+    color: #ffffff!important;
+}
+
+.texto2painel{
+    font-family: Open Sans,Arial,sans-serif;
+    font-size: 25px;
+    line-height: 1em;
+    font-weight: normal ;
+    text-align: center;
+    margin: 0px;
+    color: #ffffff!important;
+
+}
+
+.boxpesquisa {  
+    margin: 0 auto;
+    width: 460px;
+    height: 44px;
+    display: flex;
+    padding-top: 67px;
+}
+
+.search{
+    font-family:'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    background-color: #ffffff;
+    font-size: 12px;
+    text-align: left;
+    width: 450px;
+    height: 28px;    
+    padding: 14px 15px 0px 15px;
+    border: 1px solid  #d8d8d8;
+}
+
+.btpesquisa{
+    
+    background-color: #edededeb;
+    border: 1px solid #d8d8d8;
+    margin: 0 0 0 -1px;
+    height: 42px;
+    width: 39px;
+}
+
+input {
+    font-family:'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    background-color: #ffffff;
+    font-size: 12px;
+    text-align: left;
+    width: 420px;
+    height: 44px;    
+    padding: 0px 15px 0px 15px;
+    border: 1px solid  #d8d8d8;
+    color: #666;   
+}
+
+button {
+    background-image: url("./lupesquisa.png");
+    height: 20px;
+    width: 21px;
+    color: #d8d8d8;
+    background-position: center;
+    background-size: 103%;
+    border: 0px;
+    padding: 0px; 
+    text-align: center;
+    display: inline-block;
+    margin-top: 12px;
+    margin-left: 9px;
+    cursor: pointer;
+}
+
+.txtnossahistoria {
+    margin: 0 auto;
+    text-align: center;
+    background-position: center;
+    width: 80%;
+}
+
+h4 {
+    margin: 0 auto;
+    text-align: center;
+    color: #333;
+    padding: 127px 100px 10px 100px;
+    line-height: 1;
+    height: auto;
+    width: auto;
+    font-size: 56px ;
+}
+
+strong{
+    font-weight: 800;
+    font-family:'Poppins',Helvetica,Arial,Lucida,sans-serif;
+}
+
+p {  
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    margin: 0 auto;
+    font-weight: bold ;
+    color: #000000!important;
+    text-align: center;    
+    padding: 10px 55px;
+    border: 0;
+    outline: 0;
+    font-size: 17px;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    vertical-align: baseline;
+    background: 0 0;
+    line-height: 1.5;
+}
+
+.cartmenu{
+    display: none;
+    height: 60px;
+    width: 0 auto;
+    margin: 8px auto;
+}
+
+.cart{
+    margin-bottom: 20px;
+    height: 15px;
+    width: auto;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #4a4545;
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    
+}
+
+.carrinho{
+    background-image: url(./cart.png);
+    background-position: center center;
+    background-size: 100%;
+    height: 11px;
+    width: 11px;
+    display: inline-block;
+}
+.menumedia{
+    margin: 0 auto;
+    background-image: url(./menumedia.png);
+    height: 32px;
+    width: 26px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 825px){
+
+    nav { display: none; }
+    .imglogo{
+        margin-bottom: 10px;
+    }
+    .cartmenu{ display: block;}
+    .fotofundotop{width: 100%; padding: 5px 0px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        display: block;}
+    .textopainel{font-size: 40px;}
+    .texto2painel{font-size: 18px;}
+    .boxpesquisa{background-position: center;}
+    h4{font-size: 32px;}
+    p{font-size: 12px;
+    padding: 10px 30px;
+    line-height: 2;
+    }
+
+}
